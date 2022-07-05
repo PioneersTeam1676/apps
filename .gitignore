@@ -1,9 +1,6 @@
+.DS_Store
+.env
 node_modules/
 dist/
-prisma/*.db
+public/build
 coverage/
-
-.DS_Store
-
-prisma/migrations/dev/
-.env

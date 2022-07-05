@@ -1,5 +1,5 @@
 query UserPosts {
-  userPosts(userId: "USER_ID") {
+  userPosts(userId: 0) {
     ...PostData
   }
 }
@@ -39,8 +39,8 @@ subscription SubscriptionPost {
 
 fragment PostData on Post {
   id
-  createdAt
-  updatedAt
+  created
+  updated
   published
   title
   content
