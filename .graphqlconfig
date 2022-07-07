@@ -1,6 +1,6 @@
 {
   "projects": {
-    "nest-prisma-starter": {
+    "frc-1676-apps": {
       "schemaPath": "src/schema.graphql",
       "extensions": {
         "endpoints": {
